@@ -1,5 +1,7 @@
 # Pointless Quest Terminal Game
 
+| [Introduction](#introduction) | [Set up](#set-up) | [Future integration](#future-integration) | [Edge case](#edge-case) | [Demo](#demo) |
+
 ## Introduction
 This is my very first game that was made with the help of Zed Shaw's [Learn Ruby the Hard Way Book](https://www.amazon.co.uk/Learn-Ruby-Hard-Way-Computational/dp/032188499X). <br>
 
@@ -34,4 +36,3 @@ The hero (you) can navigate through the different rooms and characters that you 
 ![3rd page](public/images/3rd.png)
 #### Continued gameplay
 ![final page](public/images/finish.png)
-
