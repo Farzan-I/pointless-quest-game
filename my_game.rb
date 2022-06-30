@@ -306,7 +306,9 @@ def lava_floor_room
 	puts "You enter here and find yourself in a room filled with lava."
 	puts "Your childhood moment is now a reality, the floor is lava!"
 	puts
-	puts "&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£"
+	puts "&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£"
+	puts "&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£"
+	puts "&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£&£"
 	puts
 	puts "         
   ,d    88          []             88         
@@ -413,18 +415,25 @@ def suit_up_room
 		choice = $stdin.gets.chomp
 		if choice == "a"
 			puts
-			puts "Congratulations! You finished this very pointless quest wearing a black pin stripe suit with a white shirt, red tie and black shoes in front of your family and friends!"
+			puts "Congratulations! You finished this very pointless quest"
+			puts "wearing a black pin stripe suit with a white shirt, red"
+			puts "tie and black shoes in front of your family and friends!"
 			finish
 		elsif choice == "b"
 			puts
-			puts "Congratulations! You finished this very pointless quest wearing a blue checkered suit with a white shirt, yellow tie and brown shoes in front of your family and friends!"
+			puts "Congratulations! You finished this very pointless quest"
+			puts "wearing a blue checkered suit with a white shirt, yellow"
+			puts "tie and brown shoes in front of your family and friends!"
 			finish
 		elsif choice == "c"
 			puts
-			puts "Congratulations! You finished this very pointless quest wearing a Lime running shirt, black jogging pants, black trainers in front of your family and friends!"
+			puts "Congratulations! You finished this very pointless quest"
+			puts "wearing a Lime running shirt, black jogging pants, black"
+			puts "trainers in front of your family and friends!"
 			finish
 		else 
-			puts "You shameless guy, you! Nicely done finishing this pointless quest in your birthday suit in front of your family and friends!"
+			puts "You shameless guy, you! Nicely done finishing this pointless"
+			puts "quest in your birthday suit in front of your family and friends!"
 			finish
 		end
 	elsif choice.downcase == "female"
@@ -438,19 +447,26 @@ def suit_up_room
 		choice = $stdin.gets.chomp
 		if choice == "a"
 			puts
-			puts "Congratulations! You finished this very pointless quest wearing a black pin stripe suit with a red shirt and black shoes in front of your family and friends!"
+			puts "Congratulations! You finished this very pointless quest wearing" 
+			puts "a black pin stripe suit with a red shirt and black shoes in "
+			puts "front of your family and friends!"
 			finish
 		elsif choice == "b"
 			puts
-			puts "Congratulations! You finished this very pointless quest wearing a blue checkered suit with a yellow shirt and brown shoes in front of your family and friends!"
+			puts "Congratulations! You finished this very pointless quest wearing"
+			puts "a blue checkered suit with a yellow shirt and brown shoes in "
+			puts "front of your family and friends!"
 			finish
 		elsif choice == "c"
 			puts
-			puts "Congratulations! You finished this very pointless quest wearing a lime running shirt, black leggings, black trainers in front of your family and friends!"
+			puts "Congratulations! You finished this very pointless quest wearing"
+			puts "a lime running shirt, black leggings, black trainers in front "
+			puts "of your family and friends!"
 			finish
 		else 
 			puts
-			puts "You shameless gal, you! Nicely done finishing this pointless quest in your birthday suit in front of your family and friends!"
+			puts "You shameless gal, you! Nicely done finishing this pointless quest "
+			puts "in your birthday suit in front of your family and friends!"
 			finish
 		end
 	elsif choice.downcase == "other"
@@ -464,25 +480,52 @@ def suit_up_room
 		choice = $stdin.gets.chomp
 		if choice == "a"
 			puts
-			puts "Congratulations! You finished this very pointless quest wearing a black cardigan with a white tee, black jeans and black trainers in front of your family and friends!"
+			puts "Congratulations! You finished this very pointless quest wearing"
+			puts " a black cardigan with a white tee, black jeans and black trainers "
+			puts "in front of your family and friends!"
 			finish
 		elsif choice == "b"
 			puts
-			puts "Congratulations! You finished this very pointless quest wearing a blue turtle neck, beige chinos and brown loafers in front of your family and friends!"
+			puts "Congratulations! You finished this very pointless quest wearing "
+			puts "a blue turtle neck, beige chinos and brown loafers in front of "
+			puts "your family and friends!"
 			finish
 		elsif choice == "c"
 			puts
-			puts "Congratulations! You finished this very pointless quest wearing a lime running shirt, khaki jogging bottoms and grey trainers in front of your family and friends!"
+			puts "Congratulations! You finished this very pointless quest wearing "
+			puts "a lime running shirt, khaki jogging bottoms and grey trainers in "
+			puts "front of your family and friends!"
 			finish
 		else 
 			puts
-			puts "You shameless one, you! Nicely done finishing this very pointless quest in your birthday suit in front of your family and friends!"
+			puts "You shameless one, you! Nicely done finishing this very pointless "
+			puts "quest in your birthday suit in front of your family and friends!"
 			finish
 		end
 	end
 end
 
 def finish
+	puts 
+	puts "
+     ⢀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⠀⠀⠀
+⢠⣤⣤⣤⣼⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣄⣤⣤⣠
+⢸⠀⡶⠶⠾⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡷⠶⠶⡆⡼
+⠈⡇⢷⠀⠀⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⠇⠀⢸⢁⡗
+⠀⢹⡘⡆⠀⢹⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡸⠀⢀⡏⡼⠀
+⠀⠀⢳⡙⣆⠈⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⠇⢀⠞⡼⠁⠀
+⠀⠀⠀⠙⣌⠳⣼⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣞⡴⣫⠞⠀⠀⠀
+⠀⠀⠀⠀⠈⠓⢮⣻⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡼⣩⠞⠉⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠉⠛⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⠞⠋⠁⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠳⢤⣀⠀⠀⠀⠀⢀⣠⠖⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⡇⢸⡏⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⢸⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⠖⠒⠓⠚⠓⠒⣦⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⣀⣠⣞⣉⣉⣉⣉⣉⣉⣉⣉⣉⣉⣙⣆⣀⡀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠓⠲⠶⠶⠶⠶⠶⠶⠶⠶⠶⠶⠶⠶⠶⠖⠃⠀⠀⠀⠀⠀⠀
+		"
 	puts
 	puts "The crowd goes wild! You did it! Good job!"
 	puts 

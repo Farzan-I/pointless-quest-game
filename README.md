@@ -31,8 +31,10 @@ The hero (you) can navigate through the different rooms and characters that you 
 #### Start of the game
 ![home](public/images/start.png)
 #### Continued gameplay
-![2nd page](public/images/2nd.png)
+![2nd page](public/images/continue1.png)
 #### Continued gameplay
-![3rd page](public/images/3rd.png)
+![3rd page](public/images/continue2.png)
 #### Continued gameplay
+![4th page](public/images/continue3.png)
+#### End of the game
 ![final page](public/images/finish.png)
